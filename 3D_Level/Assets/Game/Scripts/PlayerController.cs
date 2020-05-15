@@ -2,9 +2,22 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Block screen    
+    public KeyCode _DebugLockKeyCode = KeyCode.U;
+    bool _AngleLocked;
+    #endregion
+
+    #region Canvas
+    public Text _collectableText;
+    #endregion
+
+    public int _CollectableItems = 0;
+
+
     public Transform Model;
 
     [Range(1, 40)]
@@ -43,10 +56,14 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
 
         _impulsePlayer = GetComponent<ImpulsePlayer>();
+
+        SetCollectableText();
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(_DebugLockKeyCode)) BlockScreen();
+
         Gravity();
 
         CollisionsHandler();
@@ -60,6 +77,17 @@ public class PlayerController : MonoBehaviour
         Attack();
 
         Dead();
+    }
+
+    void BlockScreen()
+    {
+        _AngleLocked = !_AngleLocked;
+
+        if (Cursor.lockState == CursorLockMode.Locked)
+            Cursor.lockState = CursorLockMode.None;
+        else
+            Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     private void Movement()
@@ -167,5 +195,39 @@ public class PlayerController : MonoBehaviour
         {
             _verticalSpeed = 0.0f;
         }
+    }
+
+
+    ///Sergi
+    
+    void OnTriggerEnter(Collider _collider)
+    {
+        if (_collider.tag == "Item")
+        {
+            Item _item = _collider.GetComponent<Item>();
+            _item.TakeGeneralItem();
+        }
+
+        if(_collider.tag == "Death")
+        {
+
+        }
+
+    }
+
+    public int GetCollectables()
+    {
+        return _CollectableItems;
+    }
+
+    public void AddCollectableItems()
+    {
+        _CollectableItems++;
+        SetCollectableText();
+    }
+
+    void SetCollectableText()
+    {
+        _collectableText.text = "" + _CollectableItems.ToString() + "";
     }
 }
