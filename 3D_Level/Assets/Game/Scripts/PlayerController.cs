@@ -127,6 +127,8 @@ public class PlayerController : MonoBehaviour
             _verticalSpeed = JumpFactor;
 
             _animator.SetTrigger("Jump");
+
+            _animator.SetBool("OnGround", false);
         }
     }
 
@@ -185,6 +187,7 @@ public class PlayerController : MonoBehaviour
         {
             _verticalSpeed = 0.0f;
             _onGround = true;
+            _animator.SetBool("OnGround", true);
         }
         else
         {
