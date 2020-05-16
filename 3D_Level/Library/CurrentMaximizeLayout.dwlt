@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 24889
+  controlID: 5536
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 24890
+  controlID: 5537
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,21 +199,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8816fdff42f5ffff58f5ffff5cf5ffff64f5ffff72f5ffffd0f5ffffeaf5fffff8f5ffff0ef6ffff1cf6ffff38f6ffff56f6ffff64f6ffff0cf8ffff22f8ffff30f8ffff40f8ffff4ef8ffff5ef8ffff6cf8ffff7af8ffffb6f8ffffc4f8ffffd2f8ffff54f9ffff62f9ffff70f9ffff78f9ffff86f9ffffa0f9ffff42fbffff5c3b0000623d0000
+      m_ExpandedIDs: c45afbff94a5fbffbc2afcff4ac6fdff42fbffffb03a0000903b00003c3e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Vase1 (1)
+        m_OriginalName: Vase1 (1)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -2466
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -274,7 +274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.8
     y: 73.6
-    width: 823
+    width: 685
     height: 439
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &8
@@ -313,9 +313,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 608.86096, y: 377.67795, z: 28.249098}
+    m_Target: {x: 30.04652, y: 3.8225033, z: 61.50509}
     speed: 2
-    m_Value: {x: 608.86096, y: 377.67795, z: 28.249098}
+    m_Value: {x: 30.04652, y: 3.8225033, z: 61.50509}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,13 +361,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20309003, y: -0.057113435, z: 0.009652374, w: -0.9780677}
+    m_Target: {x: -0.024904253, y: 0.95290023, z: 0.110109985, w: 0.2838481}
     speed: 2
-    m_Value: {x: -0.20296656, y: -0.05707871, z: 0.009646506, w: -0.9774731}
+    m_Value: {x: -0.024887672, y: 0.9522658, z: 0.11003667, w: 0.28365913}
   m_Size:
-    m_Target: 69.6937
+    m_Target: 1.88709
     speed: 2
-    m_Value: 69.6937
+    m_Value: 1.88709
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -455,7 +455,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 15618
   m_LastVerticalScrollValue: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 24860
+  controlID: 5416
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -574,34 +574,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Scripts
+    - Assets/Game/Props
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Game/Scripts
+  - Assets/Game/Props
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sergi\Documents\Unity Projects\Nivell3D\3D_Level
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 5c4c0000
-    m_LastClickedID: 19548
-    m_ExpandedIDs: 00000000be4a0000c04a0000c24a0000c44a0000c64a0000c84a0000ca4a0000cc4a0000ce4a0000d04a0000d24a0000d44a0000d64a0000d84a0000da4a0000dc4a0000364c00005e4c0000
+    scrollPos: {x: 0, y: 46}
+    m_SelectedIDs: a84c0000
+    m_LastClickedID: 19624
+    m_ExpandedIDs: 00000000204b0000224b0000244b0000264b0000284b00002a4b00002c4b00002e4b0000304b0000324b0000344b0000364b0000384b00003a4b00003c4b00003e4b0000964c0000d64c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prefabs
+      m_OriginalName: Prefabs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 19672
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -615,7 +615,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be4a0000c04a0000c24a0000c44a0000c64a0000c84a0000ca4a0000cc4a0000ce4a0000d04a0000d24a0000d44a0000d64a0000d84a0000da4a0000dc4a0000364c00005e4c0000
+    m_ExpandedIDs: 00000000204b0000224b0000244b0000264b0000284b00002a4b00002c4b00002e4b0000304b0000324b0000344b0000364b0000384b00003a4b00003c4b00003e4b0000404b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,8 +640,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 023d0000
+    m_LastClickedInstanceID: 15618
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000064610000cc9c00004aa50000763f00005895010050890000867a000000000000
     m_RenameOverlay:
@@ -752,7 +752,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -384400
+  m_LastSelectedObjectID: -304444
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
